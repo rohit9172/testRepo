@@ -19,7 +19,7 @@ class sumNum(unittest.TestCase):
         a= 3
         b=4
         response = multiply(a,b)
-        self.assertEqual(response, a+b)
+        self.assertEqual(response, a*b)
 
 if __name__ == '__main__':
     unittest.main()
