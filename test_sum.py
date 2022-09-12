@@ -3,7 +3,8 @@ import unittest
 from sum import multiply, subofnum, sumofnum
 
 class sumNum(unittest.TestCase):
-    def test_sum(self):
+    
+    def test_sume(self):
         a= 3
         b=4
         response = sumofnum(a,b)
